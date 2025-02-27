@@ -20,9 +20,7 @@ python Pipeline_wrapper.py --input (directory you downloaded files to) -f1 fastq
 
 To run this with the given sample data, the command would use the following fastq files:
 
-python Pipeline_wrapper.py --input (directory you downloaded files to) -f1 0030_1_sample.fastq -f2 0030_2_sample.
-
-fastq -f3 0033_1_sample.fastq -f4 0033_2_sample.fastq
+python Pipeline_wrapper.py --input (directory you downloaded files to) -f1 0030_1_sample.fastq -f2 0030_2_sample.fastq -f3 0033_1_sample.fastq -f4 0033_2_sample.fastq
 
 To obtain the data included in this repo, I used the following commands to retrieve the given dataset from
 NCBI and dump the data into paired-end fastq files
