@@ -16,7 +16,7 @@ brew install bowtie2 spades blast unzip
 
 To run this code, the following command line prompt format is used:
 
-python Pipeline_wrapper.py --input (directory you downloaded files to) -fastq1 -f2 fastq2 -f3 fastq3 -f4 fastq4
+python Pipeline_wrapper.py --input (directory you downloaded files to) -f1 fastq1 -f2 fastq2 -f3 fastq3 -f4 fastq4
 
 To run this with the given sample data, the command would use the following fastq files:
 
