@@ -1,0 +1,16 @@
+Donor 1 (2dpi) had 2259287 read pairs before bowtie2 filtering and 1836470 read pairs after
+Donor 1(6dpi) had 2004530 read pairs before bowtie2 filtering and 1434467 read pairs after
+spades.py --only-assembler -k 99 -t 2 -1 /home/2025/ygolzar/SRR5660030_1.fastq -2 /home/2025/ygolzar/SRR5660030_2.fastq -1 /home/2025/ygolzar/SRR5660033_1.fastq -2 /home/2025/ygolzar/SRR5660033_2.fastq -o spades_assembly
+There are 62 contigs > 1000 bp in the assembly 
+There are 89987 bp in the assembly 
+sacc	pident	length	qstart	qend	sstart	send	bitscore	evalue	stitle
+EF999921.1	100.000	3028	22	3049	99730	96703	5592	0.0	EF999921.1 Human herpesvirus 5 strain TB40/E clone TB40-BAC4, complete sequence
+KF297339.1	100.000	3028	22	3049	67689	64662	5592	0.0	KF297339.1 Human herpesvirus 5 strain TB40/E clone Lisa, complete genome
+MT070140.1	100.000	3028	22	3049	67460	64433	5592	0.0	MT070140.1 UNVERIFIED: Human betaherpesvirus 5 isolate P10, complete genome
+MW439039.1	100.000	3028	22	3049	67088	64061	5592	0.0	MW439039.1 Human betaherpesvirus 5 strain TB40/EE, complete genome
+MW439038.1	100.000	3028	22	3049	67088	64061	5592	0.0	MW439038.1 Human betaherpesvirus 5 strain TB40/EF, complete genome
+MT044484.1	99.967	3028	22	3049	67041	64014	5587	0.0	MT044484.1 Human betaherpesvirus 5 strain HAN-SOT4, complete genome
+KX544839.1	99.967	3028	22	3049	99711	96685	5585	0.0	KX544839.1 Human betaherpesvirus 5 isolate TB40-E_UNC, complete genome
+AC146907.1	99.901	3028	22	3049	160916	163943	5576	0.0	AC146907.1 Human Herpesvirus 5 FIX-BAC isolate, complete sequence
+GU179289.1	99.901	3028	22	3049	67123	64096	5576	0.0	GU179289.1 Human herpesvirus 5 strain VR1814, complete genome
+KR534198.1	99.901	3028	22	3049	67206	64179	5576	0.0	KR534198.1 Human herpesvirus 5 strain JER893, complete genome
