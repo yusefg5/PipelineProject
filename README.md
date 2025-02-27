@@ -1,5 +1,5 @@
 # PipelineProject
-COMP 381 Python Pipeline \n
+COMP 381 Python Pipeline
 In order to run this pipeline, the following dependencies are required: biopython, NCBI's command line tools,
 Bowtie2, spades, Blast+, and unzip
 pip install biopython install ncbi-datasets-cli
