@@ -41,7 +41,7 @@ os.system(bowtie_dataset)
 unzip_bowtie = f'unzip ncbi_dataset.zip'
 os.system(unzip_bowtie)
 #build the genome from the imported dataset
-bowtie_build = f'bowtie2-build {infile}/ncbi_dataset/data/GCF_000845245.1/GCF_000845245.1_ViralProj14559_genomic.fna HCMV'
+bowtie_build = f'bowtie2-build {infile}/PipelineProject_Yusef_Golzar/ncbi_dataset/data/{accession}/{accession}_ViralProj14559_genomic.fna HCMV'
 os.system(bowtie_build)
 #map the input fastq files to the imported genomes
 bowtie_1_map = f'bowtie2 --quiet -x HCMV -1 {infile}/{fastq1} -2 {infile}/{fastq2} -S HCMV2dpimap_sample.sam -k 1 --no-unal'
